@@ -1,0 +1,16 @@
+pre{
+    color: #660000;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 1em 0px;
+    white-space: pre;
+    display: block;
+}
+code {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #660000;
+    font-style: normal;
+}
+h1{
+    margin: 0;
+    display: inline;
+}
