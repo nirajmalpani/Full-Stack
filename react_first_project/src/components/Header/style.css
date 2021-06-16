@@ -1,0 +1,97 @@
+.header{
+    width:100%;
+    height: 200px;
+
+}
+.HeaderTop{
+    width:100%;
+    height:120px;
+    display: flex;
+}
+.Siren{
+    
+    margin-top: 20px;
+    
+    width:80%;
+    font-size: 1.5rem;
+}
+.login{
+   
+    margin-top: 20px;
+    width:200px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.login a{
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
+.Vertical{
+    width:50px;
+  transform: rotate(-90deg);
+    
+    margin-top: 50px;
+    margin-left: 520px;
+}
+.Heading{
+    
+    margin-left: 580px;
+    text-align: left;
+    margin-top: -55px;
+    font-weight: 900;
+}
+@media only screen and (min-width:320px) and (max-width:700px)
+{
+    .header{
+        width:100%;
+        height: 120px;
+    
+    }
+    .HeaderTop{
+        width:100%;
+        height:120px;
+        display: flex;
+    }
+    .Siren{
+        
+        margin-top: 20px;
+        
+        width:80%;
+        font-size: 1rem;
+    }
+    .login{
+       
+        margin-top: 20px;
+        width:200px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .login a{
+        display: none;
+        margin: 0 10px;
+        text-align: center;
+    }
+    .Vertical{
+        width:50px;
+      transform: rotate(-90deg);
+        
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .Heading{
+        
+        margin-left: 35px;
+        text-align: left;
+        margin-top: -25px;
+        font-weight: 900;
+    }
+    .navbar{
+        display: block;
+        text-align: center;
+         width: 100%;
+         height: 80px;
+         
+    }
+
+}

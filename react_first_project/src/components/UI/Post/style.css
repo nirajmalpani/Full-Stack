@@ -1,0 +1,42 @@
+.postouter{
+    width: 100%;
+    height: 100%;
+   
+}
+.bigimagepost{
+    width:100%;
+    height:40%;
+ 
+}
+.smallimagepost{
+    width:100%;
+    height:20%;
+   
+    display: flex;
+}
+.imagesize{
+    width: 99%;
+    height: 50%;
+
+}
+.post-textHeading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:200;
+    font-size: 1.25rem;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.smallimg{
+    width:45%;
+    height:90%;
+   
+    margin-top: 5px;
+
+}
+.smalltext{
+    width:55%;
+    height: 100%;
+    margin-top: 25px;
+
+}
+

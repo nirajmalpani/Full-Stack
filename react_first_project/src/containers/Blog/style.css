@@ -1,0 +1,207 @@
+.Blogheading{
+    font-size: larger;
+    width: 100%;
+    height: 80px;
+
+}
+.VerticalBlog{
+    width:50px;
+  transform: rotate(-90deg);
+    
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.HeadingBlog{
+    margin-left: 60px;
+    margin-top: -30px;
+}
+.GetStarted{
+    width: 105px;
+    margin-left: 1000px;
+    margin-top: -60px;
+    border:2px solid green;
+    text-align: center;
+}
+.BlogOuter{
+    width:100%;
+    height: 740px;
+    margin-left: 30%;
+ 
+}
+.BlogInner{
+    width:40%;
+    height: 740px;
+   
+}
+.bloghead{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+}
+.sizefull{
+    text-align: center;
+    font-size: 65px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.textheader{
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+}
+.iconsize{
+    width: 20%;
+    height: 90%;
+
+}
+.headtag{
+    width: 40%;
+    height: 80%;
+    text-align: left;
+    margin-left: 20px;
+    
+}
+.bottom-blog-light{
+    
+    
+    text-align: left;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+  background: #125688;
+  color: white;
+}  
+.icon{
+        padding: 5px;
+        font-size: 15px;
+        width: 20px;
+}
+.iconposition{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.imageblog{
+    width: 98%;
+    height: 200px;
+    
+}
+
+
+@media only screen and (min-width:320px) and (max-width:700px)
+{
+    .Blogheading{
+        font-size: large;
+        width: 100%;
+        height: 100px;
+    
+    }
+    .VerticalBlog{
+        width:50px;
+      transform: rotate(-90deg);
+        
+        margin-top: 50px;
+        margin-left: 05px;
+    }
+    .HeadingBlog{
+        margin-left: 40px;
+        margin-top: -30px;
+    }
+    .GetStarted{
+        width: 105px;
+        margin-left: 150px;
+        margin-top: -60px;
+        border:2px solid green;
+        text-align: center;
+    }
+    .BlogOuter{
+        width:100%;
+        height: 1000px;
+        margin-left: 0%;
+     
+    }
+    .BlogInner{
+        width:100%;
+        height: 740px;
+       
+    }
+    .bloghead{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2.5rem;
+    }
+    .sizefull{
+        text-align: center;
+        font-size: 65px;
+        margin-left: 40px;
+        margin-top: 25px;
+    }
+    .textheader{
+        margin-top: 50px;
+        width: 100%;
+        height: 100px;
+    
+        display: flex;
+    }
+    .iconsize{
+        width: 20%;
+        height: 90%;
+    
+    }
+    .headtag{
+        width: 40%;
+        height: 80%;
+        text-align: left;
+        margin-left: 20px;
+        
+    }
+    .bottom-blog-light{
+        
+        
+        text-align: left;
+        font-weight: lighter;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-instagram {
+      background: #125688;
+      color: white;
+    }  
+    .icon{
+            padding: 5px;
+            font-size: 15px;
+            width: 20px;
+    }
+    .iconposition{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .imageblog{
+        width: 98%;
+        height: 200px;
+        
+    }    
+    
+
+}

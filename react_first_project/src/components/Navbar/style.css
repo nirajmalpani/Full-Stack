@@ -1,0 +1,50 @@
+.navbar ul{
+    margin:0;
+    padding:0;
+
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-around;
+}
+.navbar ul li a{
+    text-decoration: none ;
+    text-transform: capitalize;
+    display: block;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px 100px;
+    width: 100%;
+    color: black;
+}
+@media only screen and (min-width:320px) and (max-width:700px)
+{
+    .navbar ul{
+        margin:0;
+        padding:0;
+    
+    
+    }
+    .navbar ul li{
+        list-style: none;
+        display: block;
+        justify-content: space-around;
+    }
+    .navbar ul li a{
+        text-decoration: none ;
+        text-transform: capitalize;
+        display: block;
+        justify-content: space-around;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 10px 10px;
+        width: 100%;
+        color: black;
+    }
+    .navbar{
+        height: 200px;
+    }
+}

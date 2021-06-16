@@ -1,0 +1,170 @@
+.Outerimg{
+    width:100%;
+    height:450px;
+   
+    display: flex;
+}
+.biggerImg{
+    width:800px;
+    height:94%;
+    
+    border-radius: 12px;
+    padding: 5px 10px;
+    margin: 5px 5px 5px 5px;
+    
+}
+img{
+    width:100%;
+    border-radius: 12px;
+    height:100%;
+}
+.smallerImg{
+    width:40%;
+   
+}
+
+.inner1img{
+    width:90%;
+    
+    height: 45%;
+    border-radius: 12px;
+    padding: 5px 10px;
+    margin: 5px 5px 5px 5px;
+}
+.inner2img{
+    width:90%;
+    
+    height: 45%;
+    border-radius: 12px;
+    padding: 5px 10px;
+    margin: 5px 5px 5px 5px;
+}
+.bottom-left {
+    position: relative;
+    bottom: 160px;
+    left: 150px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .bottom-bottom{
+    position: relative;
+    bottom: 160px;
+    left: 150px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .bottom-light{
+    position: relative;
+    bottom:20px;
+    left: 50px;
+    color: gainsboro;
+    text-align: left;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .Latest-Article{
+      width: 100%;
+      height: 1300px;
+   
+      display: flex;
+  }
+  .innerArticle{
+    width: 100%;
+    height: 1200px;
+   
+    display: flex;
+  }
+  .artic{
+      width: 100%;
+      height:70%;
+      
+  }
+  .imagearticle{
+      width:98%;
+      height:30%;
+      
+  }
+  .Advert{
+      width: 100%;
+      height: 600px;
+      
+  }
+  .leftarticle{
+      width:70%;
+      height:100%;
+     
+      
+  }
+  .Rightarticle{
+      width:30%;
+      height:100%;
+      
+  }
+  .toppost{
+    width: 100%;
+    height: 700px;
+    
+}
+.Story{
+    width:100%;
+    height:350px;
+   
+}
+@media only screen and (min-width:320px) and (max-width:700px){
+    .leftarticle{
+        display: block;
+    }
+    .Latest-Article{
+        display: block;
+    }
+    .leftarticle{
+        width:100%;
+        height:100%; 
+    }
+    .Rightarticle{
+        width:100%;
+        height:100%;
+        
+    }
+    .imagearticle{
+        display: none;
+    }
+    .smallerImg{
+        display:none;
+    }
+    .biggerImg{
+        width:100%;
+        height:94%;
+        
+        border-radius: 12px;
+        padding: 5px 10px;
+        margin: 5px 5px 5px 5px;
+        
+    }
+    .bottom-left {
+        position: relative;
+        bottom: 250px;
+        left: 50px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      .leftarticle{
+        width:100%;
+        height:100%;
+       display: block;
+        
+    }
+    .Rightarticle{
+        width:100%;
+        height:100%;
+        display: block;
+    }
+    .Advert{
+        width: 100%;
+        height: 40%;  
+        margin-top: -200px;
+    }
+    .Latest-Article{
+        display: inline-block;
+    }
+}

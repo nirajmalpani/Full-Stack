@@ -1,0 +1,88 @@
+.card{
+    background-color: white;
+    padding: 50px 0;
+    width: 100%;
+    height: 350px;
+    
+}
+.Text{
+    margin-top: 15px;
+    font-size: 1.75rem;
+    margin-left: 10px;
+}
+.line{
+    width:40px;
+    height: 3px;
+    background-color:red;
+    margin-left: 0px;
+}
+.card-item{
+    width: 100%;
+    height: 300px;
+   
+    display: inline-flex;
+}
+.card-block{
+    width:30%;
+    height: 90%;
+    
+    margin-left: 30px;
+    display: block;
+    padding: 4px 4px;
+}
+.imgJoshua{
+    width:90%;
+    height:50%;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+.card-textHeading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: 2px;
+    font-size: 1.5rem;
+}
+.card-basetext{
+    margin-left:40px;
+    margin-right: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    color: grey;
+    margin-top: 5px;
+    font-size: 1rem;
+
+}
+.bottom-light{
+    position: relative;
+    bottom:20px;
+    left: 20px;
+    color: white;
+    text-align: left;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  @media only screen and (min-width:320px) and (max-width:700px){
+    .card-item{
+        width: 100%;
+        height: 300px;
+       
+        display: block;
+    }
+    .card-block{
+        width:100%;
+        height: 90%;
+        
+        margin-left: 0px;
+        display: block;
+        padding: 4px 4px;
+    }
+    .card{
+        background-color: white;
+        padding: 50px 0;
+        width: 100%;
+        height: 850px;
+        
+    }
+
+  }

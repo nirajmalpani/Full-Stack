@@ -1,0 +1,14 @@
+.inner-Advert{
+    width: 99%;
+    height: 99%;
+    border: 2px solid gray;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    align-content: center;
+}
+.headAdvert{
+    margin-top: 240px;
+    margin-left: 40px;
+}
