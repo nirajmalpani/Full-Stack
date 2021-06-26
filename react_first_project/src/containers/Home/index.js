@@ -5,7 +5,25 @@ import Advertisement from '../../components/UI/Advertisement'
 import Post from '../../components/UI/Post'
 import Stories from '../../components/UI/Stories'
 import'./style.css'
+import React, { useState, useEffect } from 'react';
+import axios from 'axios'
+
 const Home=props =>{
+
+    const [posts,setposts] = useState(1);
+    console.log(posts)
+    useEffect(()=>{
+      axios.get("http://localhost:3001/home")
+      .then(res=>{
+        console.log(res.data)
+        setposts(res.data)
+      })
+      .catch(err=>{
+        console.log(err)
+      })
+    },[])
+  
+
     return(
     <>
         <Header />
@@ -14,19 +32,19 @@ const Home=props =>{
         <div className="Outerimg">
             <div className="biggerImg">
                 <img src="https://i.pinimg.com/originals/42/dd/e0/42dde0b181f0a98711215430d7b89955.jpg" alt="river pic"></img>
-                <h1 className="bottom-left">Title of Verticle gallery</h1>
-                <h6 className="bottom-bottom">Travel/12/4/2021</h6>
+                <h1 className="bottom-left">{posts.home}</h1>
+                <h6 className="bottom-bottom">{posts.articlefooter}</h6>
             </div>
             <div className="smallerImg">
                 <div className="inner1img">
                     <img src="https://i.pinimg.com/originals/42/dd/e0/42dde0b181f0a98711215430d7b89955.jpg" alt="river pic"></img>
-                    <h1 className="bottom-left">Title of Verticle gallery</h1>
-                <h6 className="bottom-bottom">Travel/12/4/2021</h6>
+                    <h1 className="bottom-left">{posts.home}</h1>
+                <h6 className="bottom-bottom">{posts.articlefooter}</h6>
                 </div>
                 <div className="inner2img">
                     <img src="https://i.pinimg.com/originals/42/dd/e0/42dde0b181f0a98711215430d7b89955.jpg" alt="river pic"></img>
-                    <h1 className="bottom-left">Title of Verticle gallery</h1>
-                <h6 className="bottom-bottom">Travel/12/4/2021</h6>
+                    <h1 className="bottom-left">{posts.home}</h1>
+                <h6 className="bottom-bottom">{posts.articlefooter}</h6>
                 </div>
             </div>  
         </div>
@@ -45,7 +63,7 @@ const Home=props =>{
                     </div>
                     <div className="imagearticle">
                     <img src="https://i.pinimg.com/originals/42/dd/e0/42dde0b181f0a98711215430d7b89955.jpg" alt="river pic"></img>
-                    <h1 className="bottom-left">Title of Verticle gallery</h1>
+                    <h1 className="bottom-left">{posts.home}</h1>
                     </div>
 
             </div>

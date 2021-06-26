@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+import axios from 'axios'
 import './style.css'
 /**
 * @author
@@ -6,27 +7,41 @@ import './style.css'
 **/
 
 const Stories = (props) => {
+    const [posts,setposts] = useState(1);
+    console.log(posts)
+    useEffect(()=>{
+      axios.get("http://localhost:3001/home")
+      .then(res=>{
+        console.log(res.data)
+        setposts(res.data)
+      })
+      .catch(err=>{
+        console.log(err)
+      })
+    },[])
+
+
   return(
     <div className="OuterStory">
         <div className="InnerStory">
-            <h3 className="head-Story">Catch waves with an adventure guide</h3>
-            <p className="insidetext">West Bengal is the second largest tea-producing state in India and is home to the globally acclaimed Darjeeling tea variety. Its location advantage makes the state a traditional market for eastern India, the Northeast, Nepal, and Bhutan. It is also a strategic entry point for markets in Southeast Asia.</p>
-            <h6 className="story-text">Tech<p className="bottom-light-story">/12/4/2021</p></h6>
+            <h3 className="head-Story">{posts.articletitle}</h3>
+            <p className="insidetext">{posts.stories}</p>
+            <h6 className="story-text">{posts.tech}<p className="bottom-light-story">{posts.date}</p></h6>
         </div>
         <div className="InnerStory">
-            <h3 className="head-Story">Catch waves with an adventure guide</h3>
-            <p className="insidetext">West Bengal is the second largest tea-producing state in India and is home to the globally acclaimed Darjeeling tea variety. Its location advantage makes the state a traditional market for eastern India, the Northeast, Nepal, and Bhutan. It is also a strategic entry point for markets in Southeast Asia.</p>
-            <h6 className="story-text">Tech<p className="bottom-light-story">/12/4/2021</p></h6>
+        <h3 className="head-Story">{posts.articletitle}</h3>
+            <p className="insidetext">{posts.stories}</p>
+            <h6 className="story-text">{posts.tech}<p className="bottom-light-story">{posts.date}</p></h6>
         </div>
         <div className="InnerStory">
-            <h3 className="head-Story">Catch waves with an adventure guide</h3>
-            <p className="insidetext">West Bengal is the second largest tea-producing state in India and is home to the globally acclaimed Darjeeling tea variety. Its location advantage makes the state a traditional market for eastern India, the Northeast, Nepal, and Bhutan. It is also a strategic entry point for markets in Southeast Asia.</p>
-            <h6 className="story-text">Tech<p className="bottom-light-story">/12/4/2021</p></h6>
+        <h3 className="head-Story">{posts.articletitle}</h3>
+            <p className="insidetext">{posts.stories}</p>
+            <h6 className="story-text">{posts.tech}<p className="bottom-light-story">{posts.date}</p></h6>
         </div>
         <div className="InnerStory">
-            <h3 className="head-Story">Catch waves with an adventure guide</h3>
-            <p className="insidetext">West Bengal is the second largest tea-producing state in India and is home to the globally acclaimed Darjeeling tea variety. Its location advantage makes the state a traditional market for eastern India, the Northeast, Nepal, and Bhutan. It is also a strategic entry point for markets in Southeast Asia.</p>
-            <h6 className="story-text">Tech<p className="bottom-light-story">/12/4/2021</p></h6>
+        <h3 className="head-Story">{posts.articletitle}</h3>
+            <p className="insidetext">{posts.stories}</p>
+            <h6 className="story-text">{posts.tech}<p className="bottom-light-story">{posts.date}</p></h6>
         </div>
     
     </div>
